@@ -10,7 +10,7 @@ export default function Price({oldPrice, newPrice}) {
     let styles = {
         backgroundColor: "#e0c367",
         height: "30px",
-        width: "200px",
+        width: "230px",
         borderBottomLeftRadius: "14px",
         borderBottomRightRadius: "14px",
     }
