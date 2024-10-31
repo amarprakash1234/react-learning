@@ -22,9 +22,9 @@ function App() {
 
   return (
     <>
-      <LudoBoard />
+      <TodoList />
     </>
   )
 }
 
-export default App
+export default App;
