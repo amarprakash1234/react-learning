@@ -14,15 +14,15 @@ import Joker from './Joker.jsx';
 
 function App() {
 
-  // let winCondition = (ticket) => {
-  //   return ticket[0] === 0;
-  //   return ticket.every((num) => num === ticket[0]);
-  //   return sum(ticket) === 15;
-  // }
+  let winCondition = (ticket) => { // props me ham ek function pass kr rhe hai jisko hm child me use kr skte hai.
+    //   return ticket[0] === 0;
+    //   return ticket.every((num) => num === ticket[0]);
+    return sum(ticket) === 15;
+  }
 
   return (
     <>
-      <TodoList />
+      <Lottery n={3} winCondition={winCondition}/>
     </>
   )
 }
