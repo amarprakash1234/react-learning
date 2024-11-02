@@ -25,8 +25,10 @@ export default function Form() {
         });
     }
 
+
+
     return (
-        <form action="" onSubmit={handleSubmit}>
+        <form action="" onSubmit={handleSubmit}> 
             <label htmlFor="fullName">Full Name</label>
             <input name="fullName" id="fullName" placeholder="enter your full name" type="text" value={formData.fullName} onChange={handleInputChange}/>
             <br /><br />

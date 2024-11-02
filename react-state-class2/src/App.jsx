@@ -22,7 +22,8 @@ function App() {
 
   return (
     <>
-      <Lottery n={3} winCondition={winCondition}/>
+      {/* <Lottery n={3} winCondition={winCondition}/> */}
+      <Comment />
     </>
   )
 }
