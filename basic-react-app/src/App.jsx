@@ -1,5 +1,5 @@
 import "./App.css";
-// import  Title from "./Title.jsx";
+import  Title from "./Title.jsx";
 // import ProductTab from "./ProductTab.jsx";
 
 import Button from "./Button.jsx";
@@ -10,11 +10,14 @@ import Button from "./Button.jsx";
 
 
 function App() {
+  let name = "Amar Prakash";
+
   return (
     <>
       {/* <h2>Blockbuster Deals | Shop Now</h2>
       <ProductTab /> */}
-      <Button />
+      {/* <Button /> */}
+      <Title arr={["amar", "prakash"]}/>
     </>
   )
 
