@@ -24,8 +24,8 @@ function App() {
   return (
     <>
       {/* <Lottery n={3} winCondition={winCondition}/> */}
-      {/* <Joker /> */}
-      < Comment />
+      <Joker />
+      {/* < Counter /> */}
     </>
   )
 }

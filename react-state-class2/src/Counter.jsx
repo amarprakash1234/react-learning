@@ -15,7 +15,7 @@ export default function Counter() {
 
     useEffect(function printSomething() {
         console.log("This is a side-effect");
-    }, []);
+    }, [countx, county]);
 
     return (
         <div>
