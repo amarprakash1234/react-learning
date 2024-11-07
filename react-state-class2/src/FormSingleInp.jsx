@@ -1,10 +1,10 @@
 import { useState } from "react"
 
 export default function FormSingleInp() {
-    let [inpVal, setInpVal] = useState("Amar");
+    let [inpVal, setInpVal] = useState("");
 
     function handleInput(ev) {
-        // inpVal = ev.target.value;
+        setInpVal(ev.target.value);
         console.log(ev.target.value);
     }
 

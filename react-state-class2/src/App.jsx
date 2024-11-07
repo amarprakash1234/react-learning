@@ -8,6 +8,7 @@ import CommentsForm from "./CommentsForm.jsx"
 import Comment from './Comment.jsx';
 import Counter from './Counter.jsx'
 import Joker from './Joker.jsx';
+import FormSingleInp from './FormSingleInp.jsx';
 
 
 
@@ -23,7 +24,8 @@ function App() {
   return (
     <>
       {/* <Lottery n={3} winCondition={winCondition}/> */}
-      <Joker />
+      {/* <Joker /> */}
+      < Comment />
     </>
   )
 }
